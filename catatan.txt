@@ -9,3 +9,15 @@ NISN|NAMA LENGKAP|TANGGAL|WAKTU|KEGIATAN|HASIL
 3423332|Hazira|2022-03-18|10:28|Github|Baik
 123456|hidayatullohal-fajar|2022-08-10|08:00|membuat coffe shop dengan baik dan enak|mantap
 123456|hidayatullohal-fajar|2022-03-05|08:30|kami menyediakan bermacam menu di coffe shop|mantap
+123456|hidayatullohal-fajar|2022-05-26|08:30|perjalanan keliling pantai|mantap
+123456|hidayatullohal-fajar|2022-03-25|09:36|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2020-05-07|08:35|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2020-03-13|08:36|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2022-06-23|08:36|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2022-05-28|11:07|a|a
+123456|hidayatullohal-fajar|2022-05-18|15:05|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2022-05-18|11:12|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2022-05-25|11:13|perjalanan keliling pantai|sangat memuaskan
+123456|hidayatullohal-fajar|2022-05-19|15:12|perjalanan keliling kebun binatang|memuaskan
+20958|123456|hidayatullohal-fajar|2022-05-24|12:14|perjalanan keliling kebun binatang|memuaskan
+55325|123456|hidayatullohal-fajar|2022-05-26|08:35|perjalanan keliling pantai|sangat memuaskan

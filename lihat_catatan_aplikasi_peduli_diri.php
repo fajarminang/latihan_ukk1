@@ -29,7 +29,7 @@
                         <th>No</th>
                         <th>Tanggal</th>
                         <th>Waktu</th>
-                        <th>jenis coffe</th>
+                        <th>jenis Nama nama  perjalanan</th>
                         <th>Hasil</th>
                     </tr>
                 </thead>
@@ -38,7 +38,7 @@
                         <th>No</th>
                         <th>Tanggal</th>
                         <th>Waktu</th>
-                        <th>jenis coffe</th>
+                        <th>jenis Nama nama perjalanan</th>
                         <th>Hasil</th>
                     </tr>
                 </tfoot>
@@ -46,10 +46,10 @@
                     <?php 
                         $no=1;
                         $data = file('catatan.txt', FILE_IGNORE_NEW_LINES);
-                        $user = $_SESSION['nisn']."|".$_SESSION['nama_lengkap'];
+                        $user = $_SESSION['NIK']."|".$_SESSION['nama_lengkap'];
                         foreach($data as $value){
                             $fragment = explode("|", $value);
-                            @$key = $fragment['0']."|".$fragment['1'];
+                            @$key = $fragment['1']."|".$fragment['2'];
                             if($key == $user){
                         
                         ?>

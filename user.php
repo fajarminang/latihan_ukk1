@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(empty($_SESSION['nisn'])){ ?>
+if(empty($_SESSION['NIK'])){ ?>
     <script type ="text/javascript">
         alert("!!! Anda harus login untuk mengakses halaman!");
         window.location.assign('index.php');
@@ -19,7 +19,7 @@ if(empty($_SESSION['nisn'])){ ?>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Catatan Kegiatan</title>
+    <title>Catatan Kegiatan </title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -48,7 +48,7 @@ if(empty($_SESSION['nisn'])){ ?>
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-book"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Catatan Kegiatan coffe shop<sup></sup></div>
+                <div class="sidebar-brand-text mx-3">Catatan Aplikasi Peduli Diri<sup></sup></div>
             </a>
 
             <!-- Divider -->
@@ -75,14 +75,14 @@ if(empty($_SESSION['nisn'])){ ?>
             <li class="nav-item">
                 <a class="nav-link" href="?url=tulis_catatan">
                     <i class="fas fa-fw fa-edit"></i>
-                    <span>Tulisan Catatan coffe shop</span></a>
+                    <span>Tulisan Catatan aplikasi peduli diri</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="?url=catatan_kegiatan">
                     <i class="fas fa-fw fa-list"></i>
-                    <span>Lihat Catatan coffe shop</span></a>
+                    <span>Lihat Catatan aplikasi peduli diri</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
@@ -112,7 +112,7 @@ if(empty($_SESSION['nisn'])){ ?>
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                  <h3>Aplikasi Catatan Kegiatan coffe shop</h3>
+                  <h3>Aplikasi peduli diri</h3>
 
                 </nav>
                 <!-- End of Topbar -->
@@ -126,18 +126,18 @@ if(empty($_SESSION['nisn'])){ ?>
                             if(!empty(@$_GET['url'])){
                                 switch (@$_GET['url']){
                                     case 'tulis_catatan':
-                                        include 'tulis_catatan.php';
+                                        include 'tulis_catatan_aplikasi_peduli_diri.php';
                                         break;
                                     
                                     case 'catatan_kegiatan':
-                                        include 'catatan_kegiatan.php';
+                                        include 'catatan_kegiatan_aplikasi_peduli_diri.php';
                                         break;
                                 }
                             }else{
-                                echo "Selamat datang di Aplikasi Latihan UKK. ";
+                                echo "Selamat datang di Aplikasi Peduli Diri. ";
                                 echo "<br/><br/>anda login sebagai: ";
                                 echo "<h4>" .$_SESSION['nama_lengkap']."</h4";
-                                echo "<br/><h4>" .$_SESSION['nisn']."</h4";
+                                echo "<br/><h4>" .$_SESSION['NIK']."</h4";
                             }
                         ?>
                     </div>

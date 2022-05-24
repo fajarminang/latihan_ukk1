@@ -50,13 +50,13 @@
                         <div class="col-lg-12">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h5 text-gray-900 mb-2">Masukkan NISN dan Nama Lengkap</h1>
+                                    <h1 class="h5 text-gray-900 mb-2">Masukkan NIK dan Nama Lengkap</h1>
                                 </div>
                                     <form class="user" method="post" action="do_register.php">
                                         <div class="form-group">
-                                            <input type="text" name ="nisn" class="form-control form-control-user"
+                                            <input type="text" name ="NIK" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Masukkan NISN anda">
+                                                placeholder="Masukkan NIK anda">
                                         </div>
                                         <div class="form-group">
                                             <input type="text" name="nama_lengkap" class="form-control form-control-user"

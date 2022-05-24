@@ -2,7 +2,7 @@
 
 $id_catatan=$_GET['id_catatan'];
 
-// $format = "\n$id_catatan|$nisn|$nama_lengkap|$tanggal|$jam|$kegiatan|$hasil";
+// $format = "\n$id_catatan|$NIK|$nama_lengkap|$tanggal|$jam|$kegiatan|$hasil";
 
 //buka file catatan.txt
 $no= 0;

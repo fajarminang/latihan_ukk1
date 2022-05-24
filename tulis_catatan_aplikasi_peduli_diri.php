@@ -18,8 +18,8 @@
                 <input name="jam" type="time" required class=form-control placeholder="Masukkan Waktu">
             </div>
             <div class="form-group">
-                <label>jenis coffe </label>
-                <input name="kegiatan" type="text" required class=form-control placeholder="Masukkan jenis coffe">
+                <label>jenis Nama nama perjalanan </label>
+                <input name="kegiatan" type="text" required class=form-control placeholder="Masukkan jenis nama nama perjalanan">
             </div>
             <div class="form-group">
                 <label>Hasil</label>

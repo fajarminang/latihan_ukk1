@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$nisn = $_SESSION['nisn'];
+$nisn = $_SESSION['NIK'];
 $nama_lengkap = $_SESSION['nama_lengkap'];
 
 $tanggal =$_POST['tanggal'];

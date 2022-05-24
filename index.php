@@ -30,14 +30,14 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <br />
-                            <h1 class="h3 text-gray-900 text-center">Selamat datang di coffe shop</h1>
+                            <h1 class="h3 text-gray-900 text-center">Selamat datang di peduli diri</h1>
                             <br />
                             <div class="card-body p-0">
                                 <!-- Nested Row within Card Body -->
                                 <div class="row">
                                     <div class="col-4"></div>
                                     <div class="col-4">
-                                        <img src="img/coffe.png" alt="Responsive image" class="img-fluid">
+                                        <img src="img/pedulidiri.png" alt="Responsive image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -47,11 +47,11 @@
                         <div class="col-lg-12">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h5 text-gray-900 mb-2">Masukkan NISN dan Nama Lengkap</h1>
+                                    <h1 class="h5 text-gray-900 mb-2">Masukkan NIK dan Nama Lengkap</h1>
                                 </div>
                                 <form class="user" method="post" action="do_login.php">
                                     <div class="form-group">
-                                        <input type="text" name="nisn" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukkan NISN anda">
+                                        <input type="text" name="NIK" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukkan NIK anda">
                                     </div>
                                     <div class="form-group">
                                         <input type="text" name="nama_lengkap" class="form-control form-control-user" id="exampleInputPassword" placeholder="Masukkan nama lengkap anda">

@@ -1,27 +1,27 @@
 <?php 
 
-$nisn = $_POST['nisn'];
+$NIK = $_POST['NIK'];
 $nama_lengkap = $_POST['nama_lengkap'];
 
 
-//cek jika nisn telah tedaftar
+//cek jika NIK telah tedaftar
 $data = file("config.txt", FILE_IGNORE_NEW_LINES);
 foreach($data as $value){
     $fragment = explode("|", $value);
-    if($nisn == $fragment['0']){
+    if($NIK == $fragment['0']){
         $check = true;
     }
 }
 
 if($check){ //jika nik sudah terdaftar ?>
     <script type ="text/javascript">
-        alert("Maaf, NISN telah terdaftar!!");
+        alert("Maaf, NIK telah terdaftar!!");
         window.location.assign('register.php');
     </script> 
 <?php 
 }
 else{ //jika data tidak ditemukan, maka akan disimpan ke config.txt
-    $format = "\n$nisn|$nama_lengkap";
+    $format = "\n$NIK|$nama_lengkap";
 
     //buka dulu file nya
     $file = fopen('config.txt','a');

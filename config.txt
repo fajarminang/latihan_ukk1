@@ -1,7 +1,10 @@
-NISN|NAMA LENGKAP
+NIK|NAMA LENGKAP
 3423332|Hazira
 12345|Hazira Fakhrurrozi Amir
 546545845|Afrikal
 55555|Andi
 |
 123456|hidayatullohal-fajar
+|hidayatullohal-fajar
+|Hidayatullohal-fajar
+|Hidayatullohal-fajar fajar
